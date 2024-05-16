@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SUPER RACHADOR</title>
+</head>
+<body>
+    <section class="secao">
+        <h2 id="titulo">Rachador de Combustível</h2><br>
+        <div class="linha">FAZ O L</div>
+            <div class="form-gp">
+                <label for="gas">Valor atual do combustível</label><br><br>
+                <input type="number" name="gas" id="gas" required placeholder="4,99">
+            </div>
+            <div class="form-gp">
+                <label for="kmpl">Média do veículo (Km/L) </label><br><br>
+                <input type="number" name="kmpl" id="kmpl" required placeholder="10,5">
+            </div>
+            <div class="form-gp">
+                <label for="distancia">Distância (Km) </label><br><br>
+                <input type="number" name="distancia" id="distancia" required placeholder="120">
+            </div>
+            
+            <div class="form-gp">
+                <label for="pessoas">N° de pessoas </label><br><br>
+                <input type="number" name="pessoas" id="pessoas" required placeholder="4">
+            </div>
+            <div>
+                <h2 id="resultado">Resultado</h2>
+            </div>
+            <div class="botao-gp">
+                <input type="submit" id="botao" class="enviar" onclick="Rachar();" value="Rachar" />
+            </div>
+    </section>
+    <script src="contas.js"></script>
+</body>
+</html>
